@@ -1,9 +1,9 @@
 # Spring-boot-API-versioning
 ### URI /v2/employees using @BasePathAwareController annotation and spring.data.rest.basePath=/v2 property
-   -  Version is embedded in URI
-    - Usually near root
-    - Works with caching where URI is key
-    - Creates whole new tree with each version
+      - Version is embedded in URI
+      - Usually near root
+      - Works with caching where URI is key
+      - Creates whole new tree with each version
 ### Header content Accept: application/vnd.globomantics.v2+json. In this case URI doesn't change.
      - Media Type
     - Define vendor specific media types
