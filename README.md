@@ -6,18 +6,18 @@
     - Creates whole new tree with each version
 ### Header content Accept: application/vnd.globomantics.v2+json. In this case URI doesn't change.
      - Media Type
-    -  Define vendor specific media types
+    - Define vendor specific media types
     - Used server side to determine what version to use for call
-    -   URI does not change
-    Non-standard media types can be confusing
+    - URI does not change
+    - Non-standard media types can be confusing
 ### using customer header 
-  - Accept-version: v1
-  - Accept-version: v2
-  - Custom Header
-  - Define a custom header for version information
-  - Used server side to determine what version to use for call
-  - URI does not change
-  - More clear than media typ
+     - Accept-version: v1
+     - Accept-version: v2
+     - Custom Header
+     - Define a custom header for version information
+     - Used server side to determine what version to use for call
+     - URI does not change
+     - More clear than media type
 ###  Request Parameter /api/products?version=v1 /api/products?version=v2
     - Request Parameters
     - Define a version parameter
