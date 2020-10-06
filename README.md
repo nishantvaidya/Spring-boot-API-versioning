@@ -1,10 +1,10 @@
 # Spring-boot-API-versioning
-## URI https://abc.com/v2/employees## using @BasePathAwareController annotation and spring.data.rest.basePath=/v2 property
+### URI /v2/employees using @BasePathAwareController annotation and spring.data.rest.basePath=/v2 property
    -  Version is embedded in URI
     - Usually near root
     - Works with caching where URI is key
     - Creates whole new tree with each version
-## Header content Accept: application/vnd.globomantics.v2+json. In this case URI doesn't change.
+### Header content Accept: application/vnd.globomantics.v2+json. In this case URI doesn't change.
      - Media Type
     -  Define vendor specific media types
     - Used server side to determine what version to use for call
@@ -24,7 +24,7 @@
     - Parsed out with other parameters to determine what version to use for call
     - URI does not change
     - Routing can be more difficult than other versioning schemes
-##  No versioning 
+###  No versioning 
     -“v1” in URI may never change
     - Simplifies server-side logic
     - Clients don’t need to know any special header information
